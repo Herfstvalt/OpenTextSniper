@@ -1,0 +1,4 @@
+references:
+  - project: textsniper.app
+    learned: "The core concept — select a screen region, OCR it, copy to clipboard. TextSniper proved this workflow is indispensable and inspired OpenTextSniper as a free, open-source alternative."
+    applied: "The entire app architecture: hotkey -> region selection -> Vision OCR -> clipboard"

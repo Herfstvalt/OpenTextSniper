@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>OpenTextSniper</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.herfstvalt.opentextsniper</string>
+    <key>CFBundleName</key>
+    <string>OpenTextSniper</string>
+    <key>CFBundleDisplayName</key>
+    <string>OpenTextSniper</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>OpenTextSniper needs screen capture access to read text from your screen.</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>MIT License</string>
+</dict>
+</plist>
