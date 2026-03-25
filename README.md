@@ -6,9 +6,6 @@
 
 <p align="center">Free, open-source screen OCR for macOS. Select any region on your screen and instantly copy the text to your clipboard.</p>
 
-<p align="center">
-  <img src="assets/banner.png" alt="OpenTextSniper demo" width="700">
-</p>
 
 Inspired by [TextSniper](https://textsniper.app/) — built because I wanted the same thing but free and open-source.
 
