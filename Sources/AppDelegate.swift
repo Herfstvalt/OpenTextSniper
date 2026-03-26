@@ -61,7 +61,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             let config = NSImage.SymbolConfiguration(pointSize: 16, weight: .medium)
             let image = NSImage(
                 systemSymbolName: "text.viewfinder",
-                accessibilityDescription: "OpenTextSniper"
+                accessibilityDescription: "OpenTextGrabber"
             )?.withSymbolConfiguration(config)
             image?.isTemplate = true
             button.image = image
@@ -111,8 +111,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(.separator())
 
         // About & Quit
-        menu.addItem(withTitle: "About OpenTextSniper", action: #selector(showAbout), keyEquivalent: "")
-        menu.addItem(withTitle: "Quit OpenTextSniper", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        menu.addItem(withTitle: "About OpenTextGrabber", action: #selector(showAbout), keyEquivalent: "")
+        menu.addItem(withTitle: "Quit OpenTextGrabber", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
     }
 
     private func attributedMenuItem(title: String, shortcut: String) -> NSAttributedString {
@@ -176,11 +176,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         free and open-source. The idea came directly from TextSniper \
         (textsniper.app) — full kudos to the app that inspired this project.
 
-        github.com/Herfstvalt/OpenTextSniper
+        github.com/Herfstvalt/OpenTextGrabber
         """
 
         NSApp.orderFrontStandardAboutPanel(options: [
-            .applicationName: "OpenTextSniper",
+            .applicationName: "OpenTextGrabber",
             .applicationVersion: "1.0",
             .version: "1",
             .credits: NSAttributedString(
@@ -274,5 +274,5 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 // MARK: - Notification Name
 
 extension Notification.Name {
-    static let captureHotkey = Notification.Name("com.opentextsniper.captureHotkey")
+    static let captureHotkey = Notification.Name("com.opentextgrabber.captureHotkey")
 }

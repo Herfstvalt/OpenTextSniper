@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-APP_NAME="OpenTextSniper"
+APP_NAME="OpenTextGrabber"
 BUILD_DIR="build"
 APP_BUNDLE="$BUILD_DIR/$APP_NAME.app"
 

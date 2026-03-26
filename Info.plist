@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleExecutable</key>
-    <string>OpenTextSniper</string>
+    <string>OpenTextGrabber</string>
     <key>CFBundleIdentifier</key>
-    <string>com.herfstvalt.opentextsniper</string>
+    <string>com.herfstvalt.opentextgrabber</string>
     <key>CFBundleName</key>
-    <string>OpenTextSniper</string>
+    <string>OpenTextGrabber</string>
     <key>CFBundleDisplayName</key>
-    <string>OpenTextSniper</string>
+    <string>OpenTextGrabber</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleShortVersionString</key>
@@ -21,7 +21,7 @@
     <key>LSUIElement</key>
     <true/>
     <key>NSScreenCaptureUsageDescription</key>
-    <string>OpenTextSniper needs screen capture access to read text from your screen.</string>
+    <string>OpenTextGrabber needs screen capture access to read text from your screen.</string>
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
     <key>NSHumanReadableCopyright</key>
